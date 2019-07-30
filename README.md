@@ -1,6 +1,6 @@
 # World Bank Data Indicators Narrative Visualization
 ## About the Visualization
-This visualization follows the Interactive Slideshow Visualization Structure. Visualization website is hosted on githubpages and this can be accessed using https://navula2.github.io/d3-narrative-viz/
+This visualization follows the Interactive Slideshow Visualization Structure. Visualization webpage is hosted on githubpages and is accessible using the URl: https://navula2.github.io/d3-narrative-viz/
 
 ## Dataset
 World Bank Indicators dataset http://databank.worldbank.org/data/download/WDI_csv.zip is used for this Narrative Data Visualization. To supplement the US population by state, I have also used "US State populations - 2018" dataset from Kaggle https://www.kaggle.com/lucasvictor/us-state-populations-2018#State%20Populations.csv
@@ -24,10 +24,10 @@ There are 4 Scenes in the slideshow.
  - Barchart
  - Linegraph
 
-All the scenes follows the same colors, fonts, background theme for the visual consistency throughout the Visualization.
+All the scenes follows the same template, colors, fonts, background theme for the visual consistency throughout the Visualization to best convey the message.
 
 ## Annotations
-Annotations are added to each scene with help of a tooltip. Mouse over and Mouse out events will show/hide tooltip annotations.
+Annotations are added to each scene with help of a tooltip. Mouse over and Mouse out events will show/hide tooltip annotations interactively.
 - **Map annotations**: Hover the mouse on any of the state on the US Map shows a tooltip with State name and population. When the mouse moved to next state it shows data for that state and so on. When the mouse out from the state, the annotation disappears.
 - **Scatterplot annotations**: Hover the mouse on any of the cirle shows a tooltio with Country name and Avergage Life expectancy in years.
 - **Barchart annotations**: Hover the mouse on any of the rectangular bar shows the tooltip with Unemployment percentage corresponding to the year.
@@ -42,19 +42,19 @@ Annotations are added to each scene with help of a tooltip. Mouse over and Mouse
 
 ## Triggers
 - **Slide Navigation controls**: The Visualization Navigation can be controlled by Keyboard arrow keys, Mouse scroll wheel, and by pressing the "Dot button" in the right side of the fullpage template.
-- **Map triggers**: Mouse over event on any state triggers tooltip show action and mouse out event triggers hide action on tooltip
+- **Map triggers**: Mouse over event on any state on US map triggers tooltip show action and mouse out event triggers hide action on tooltip.
 - **Scatterplot triggers**: Mouse over event on Income Group filter triggers the action to show the cirles of the matched data. Mouse over/Mouseout events triggers the action of show/hide tooltip on each circle respectively.
-- **Barchart triggers**: Mouse over/Mouse out events on any bar will trigger the action of show/hide Unemployment percentage tooltip respectively.
-- **Linegraph triggers**: Mouse over/Mouse out events along the line graph will trigger the action of show/hide the Total population for each year respectively.
+- **Barchart triggers**: Mouse over event on any bar will trigger the action of Highlight the bar in yellow color and  Unemployment percentage tooltip will be shown.
+- **Linegraph triggers**: Hover over the mouse over the line chart from left to right and vice versa and observe the population Growth over the years 2000 to 2018.
 
 ## Filters
-- Scatterplot support filtering of counties by Income Group. Hover the mouse on a given Income group filters the Life Expectancy data for the countires whose Income Group matched with the selected Income Group.
+Scatterplot support filtering of counties by Income Group. Hover the mouse on a given Income group filters the Life Expectancy data for the countires whose Income Group matched with the selected Income Group.
 
 ## Sort
-- On barchart, clicking on "Sort" button sorts the US Unemployment data in ascending/descending order. Refresh the page to restore the barchart to default position.
+On barchart, clicking on "Sort" button sorts the US Unemployment data in ascending/descending order. Refresh the page to restore the barchart to default position.
 
 ## Conclusion
-* US East coast states are more populated than Midwest/West coast
+* US East coast states are more populated than Midwest/West coast.
 * US Unemployment data from 2000-2018 shows that Unemployment was hitted high 2010 and recovered pretty good in 2017 and 2018.
 * Average Life Expectancy is high in countries in "High Income" group compared to the Low incone countires.
 * World population is growing steadily each year.
