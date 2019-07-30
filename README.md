@@ -34,17 +34,17 @@ Annotations are added to each scene with help of a tooltip. Mouse over and Mouse
 - **Linegraph annotations**: Hover the mouse on the line shows the Total population for the given year.
 
 ## Parameters
-- **Slide Navigators**: The slide navigation dots are shown in the right side of each slide.
+- **Slide Navigators**: The slide navigation dots are shown in white color at right side of each slide at middle of the page.
 - **Map parameters**: Population of each state in US for the year 2018.
-- **Scatterplot parameters**: Life Expectancy at birth in years for the Total popuation of each country.
+- **Scatterplot parameters**: Life Expectancy at birth in years for the Total population of each country.
 - **Barchart parameters**: Avg. Unemployment percentage for the given year.
 - **Linegraph parameters**: Total population for given year.
 
 ## Triggers
-- **Slide Navigation controls**: The Visualization Navigation can be controlled by Keyboard arrow keys, Mouse scroll wheel, and by pressing the "Dot button" in the right side of the fullpage template.
+- **Slide Navigation controls**: The Visualization Navigation can be controlled by Keyboard arrow keys, Mouse scroll wheel, and by pressing the white dot buttons at the right side of the fullpage template slides at the middle of the page.
 - **Map triggers**: Mouse over event on any state on US map triggers tooltip show action and mouse out event triggers hide action on tooltip.
 - **Scatterplot triggers**: Mouse over event on Income Group filter triggers the action to show the cirles of the matched data. Mouse over/Mouseout events triggers the action of show/hide tooltip on each circle respectively.
-- **Barchart triggers**: Mouse over event on any bar will trigger the action of Highlight the bar in yellow color and  Unemployment percentage tooltip will be shown.
+- **Barchart triggers**: Mouse over event on any bar will trigger the action of highlight the bar in yellow color and  Unemployment percentage tooltip will be shown.
 - **Linegraph triggers**: Hover over the mouse over the line chart from left to right and vice versa and observe the population Growth over the years 2000 to 2018.
 
 ## Filters
@@ -54,9 +54,9 @@ Scatterplot support filtering of counties by Income Group. Hover the mouse on a 
 On barchart, clicking on "Sort" button sorts the US Unemployment data in ascending/descending order. Refresh the page to restore the barchart to default position.
 
 ## Conclusion
-* US East coast states are more populated than Midwest/West coast.
-* US Unemployment data from 2000-2018 shows that Unemployment was hitted high 2010 and recovered pretty good in 2017 and 2018.
-* Average Life Expectancy is high in countries in "High Income" group compared to the Low incone countires.
+* US East coast states are more populated than Midwest/West coast. Alaska, North Dakota, South Dakota and Vermont states are low in population while California and Texas are high in population.
+* US Unemployment data from 2000-2018 shows that Unemployment was hitted high in 2010 and recovered pretty good in 2017 and 2018.
+* Average Life Expectancy is high in countries in "High income" group compared to the counties in "Low income" group.
 * World population is growing steadily each year.
 
 ## References and Credits
